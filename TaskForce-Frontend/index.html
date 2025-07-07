@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskForce</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    
+</head>
+<body>
+    <main>
+        <section>
+            <h2>Gestionar tareas</h2>
+            <div class="botones">
+            <button id="agg">Agregar nueva tarea</button>
+            <button id="ver">Ver tareas</button>
+            <button id="completadas">Tareas completadas</button>
+            <button id="pendientes">Tareas pendientes</button>
+            <button id="vencidas">Tareas vencidas</button>
+        </div>
+        </section>
+        
+        <section id="listaTareas">
+
+        </section>
+
+        <section id="formulario" class="oculto">
+            <h2>Agregar tarea</h2>
+            <form id="tareaForm">
+            
+            <label for="titulo">Titulo</label>
+            <input type="text" id="titulo" name="titulo" required>
+            
+            <label for="descripcion">Descripción</label>
+            <textarea name="descripcion" id="descripcion" required></textarea>
+
+            <label for="fechaFinalizacion">Fecha de finalización</label>
+            <input type="date" name="fechaFinalizacion" id="fechaFinalizacion" required>
+
+            <button type="submit">Añadir tarea</button>
+            </form>
+
+        </section>
+    </main>
+</body>
+</html>

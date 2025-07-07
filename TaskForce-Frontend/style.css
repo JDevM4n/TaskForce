@@ -1,0 +1,107 @@
+.oculto {
+    display: none;
+}
+
+/* Reset básico para evitar diferencias entre navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilo del body */
+body {
+  background-color: #f4f6f8;
+  color: #333;
+  padding: 20px;
+}
+
+/* Estilo principal del contenido */
+main {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Sección de botones de navegación */
+.botones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+/* Botones generales */
+button {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #004999;
+}
+
+/* Sección de tareas */
+#listaTareas {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+#listaTareas div {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/* Título de cada tarea */
+#listaTareas h3 {
+  color: #222;
+}
+
+/* Formulario oculto al principio */
+.oculto {
+  display: none;
+}
+
+/* Formulario de tareas */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Campos del formulario */
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Botón de enviar */
+form button {
+  align-self: flex-start;
+  background-color: #28a745;
+}
+
+form button:hover {
+  background-color: #1e7e34;
+}
+
+/* Título de sección */
+section h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
